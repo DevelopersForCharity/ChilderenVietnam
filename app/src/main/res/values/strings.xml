@@ -6,4 +6,12 @@
     <string name="Username">UserName</string>
     <string name="Password">Password</string>
     <!--   -->
+    <!-- Dialog register -->
+    <string name="AccountCreation">Creation Account</string>
+    <string name="AccountName">User Name</string>
+    <string name="password">Password</string>
+    <string name="passwordConfirm">Confirm Password</string>
+    <string name="RegisterAccount">Register</string>
+
+
 </resources>
