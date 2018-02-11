@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:gravity="center"
+
+        android:text="@string/AccountCreation"/>
+
+
+    <EditText
+        android:id="@+id/nameAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/AccountName"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="@dimen/textSizeLogin" />
+
+    <EditText
+        android:id="@+id/passwordOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/AccountName"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="@dimen/textSizeLogin" />
+
+    <EditText
+        android:id="@+id/passwordSeccond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/AccountName"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="@dimen/textSizeLogin" />
+
+    <Button
+        android:id="@+id/saveDialog"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="saveDialog"
+        android:text="@string/RegisterAccount"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>
