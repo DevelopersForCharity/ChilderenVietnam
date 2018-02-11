@@ -73,7 +73,7 @@
         android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="6dp"
-        android:text="Register Here." />
+        android:text="@string/Register" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
