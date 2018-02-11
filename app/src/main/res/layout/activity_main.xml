@@ -10,12 +10,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="120dp"
+        android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        app:srcCompat="@drawable/logochildsurgery" />
+        app:srcCompat="@drawable/logochild" />
 
     <EditText
         android:id="@+id/editText"
@@ -27,9 +27,9 @@
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_action_user"
         android:ems="10"
-        android:hint="Username"
+        android:hint="@string/Username"
         android:inputType="textPersonName"
-        android:textSize="16dp" />
+        android:textSize="@dimen/textSizeLogin" />
 
     <EditText
         android:id="@+id/editText2"
@@ -42,8 +42,9 @@
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_action_pass"
         android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword" />
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/textSizeLogin" />
 
 
     <RelativeLayout
@@ -60,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Login"
+            android:text="@string/Login"
             android:textColor="#fff"
             android:textSize="18sp" />
     </RelativeLayout>
@@ -79,9 +80,8 @@
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_alignLeft="@+id/imageView"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageView"
+        android:layout_centerHorizontal="true"
         android:orientation="horizontal">
 
         <ImageView
@@ -94,14 +94,14 @@
             android:id="@+id/imageView3"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="@dimen/imageMarginLeft"
             app:srcCompat="@drawable/instagram" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="@dimen/imageMarginLeft"
             app:srcCompat="@drawable/facebook" />
     </LinearLayout>
 </RelativeLayout>

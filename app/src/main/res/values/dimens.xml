@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- login page -->
+    <dimen name="textSizeLogin">16sp</dimen>
+    <dimen name="imageMarginLeft">15dp</dimen>
+    <!-- -->
+</resources>
