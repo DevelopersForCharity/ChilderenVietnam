@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="200dp"
     android:layout_height="wrap_content"
-    android:layout_margin="50dp"
     android:background="@drawable/dialog_background"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:fadingEdge="vertical">
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
         android:gravity="center"
-
-        android:text="@string/AccountCreation"/>
+        android:text="@string/AccountCreation" />
 
 
     <EditText
@@ -38,8 +38,8 @@
         android:drawableLeft="@drawable/ic_action_pass"
         android:ems="10"
         android:gravity="center"
-        android:hint="@string/AccountName"
-        android:inputType="textPersonName"
+        android:hint="@string/password"
+        android:inputType="textPassword"
         android:padding="10dp"
         android:textSize="@dimen/textSizeLogin" />
 
@@ -52,8 +52,8 @@
         android:drawableLeft="@drawable/ic_action_pass"
         android:ems="10"
         android:gravity="center"
-        android:hint="@string/AccountName"
-        android:inputType="textPersonName"
+        android:hint="@string/passwordConfirm"
+        android:inputType="textPassword"
         android:padding="10dp"
         android:textSize="@dimen/textSizeLogin" />
 
