@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
     }
 
+    /**
+     * dialog
+     */
+    /**
+     * button to get Dialog_register layout and generates the Dialog
+     */
+
     public void register(View v) {
         ThisDialog = new Dialog(MainActivity.this);
         ThisDialog.setContentView(R.layout.dialog_register);
@@ -44,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         ThisDialog.show();
 
     }
+    /**
+     * button to save register dialog to SharedPreferences and on Login page
+     */
 
     public void saveRegister(View v) {
         EditText Name = ThisDialog.findViewById(R.id.nameAccount);
@@ -67,21 +77,29 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    /**
+     * dialog ends
+     */
 
+    /**
+     * SharedPreferences Name and Password
+     */
     public void SharedPrefName(String name) {
         SharedPreferences prefs = getApplicationContext().getSharedPreferences("ACCOUNT", 0);
         SharedPreferences.Editor prefEDIT = prefs.edit();
         prefEDIT.putString("Account Name", name);
-        prefEDIT.commit();
+        prefEDIT.apply();
     }
 
     public void SharedPrefPassword(String password) {
         SharedPreferences prefs = getApplicationContext().getSharedPreferences("ACCOUNT", 0);
         SharedPreferences.Editor prefEDIT = prefs.edit();
         prefEDIT.putString("Password", password);
-        prefEDIT.commit();
+        prefEDIT.apply();
     }
-
+    /**
+     * displays the Name and password on the Login page
+     */
     public void displayForAccountName(int NameLogin) {
         TextView Name = findViewById(R.id.userNameLogin);
         Name.setText(String.valueOf(NameLogin));
