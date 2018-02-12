@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:onClick="saveDialog"
+        android:onClick="saveRegister"
         android:text="@string/RegisterAccount"
         android:textColor="@color/colorPrimaryDark" />
 
