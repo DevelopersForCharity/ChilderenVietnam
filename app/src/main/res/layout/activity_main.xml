@@ -18,10 +18,10 @@
         app:srcCompat="@drawable/logochild" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/userNameLogin"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_above="@+id/editText2"
+        android:layout_above="@+id/passwordLogin"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="35dp"
         android:background="#11000000"
@@ -32,12 +32,12 @@
         android:textSize="@dimen/textSizeLogin" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/passwordLogin"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_alignBottom="@+id/cardView"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/userNameLogin"
+        android:layout_alignStart="@+id/userNameLogin"
         android:layout_marginBottom="130dp"
         android:background="#11000000"
         android:drawableLeft="@drawable/ic_action_pass"
