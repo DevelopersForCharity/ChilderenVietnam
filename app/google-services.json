@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "329185512974",
+    "firebase_url": "https://childerenvietnam.firebaseio.com",
+    "project_id": "childerenvietnam",
+    "storage_bucket": "childerenvietnam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329185512974:android:e1d88a8d3796299b",
+        "android_client_info": {
+          "package_name": "com.example.android.childerenvietnam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329185512974-j3cii1mlane7qo2ol8fbbb62h841doc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.childerenvietnam",
+            "certificate_hash": "1d782f92f8ad89f3b7aad4c1c9444d5d6da5fe0b"
+          }
+        },
+        {
+          "client_id": "329185512974-4mq3pb8rqeu3hpgs9ig88e3kk26uvuvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv0cEhUEtkgPUqoIF-fYDOPeK8ZjTOrH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329185512974-4mq3pb8rqeu3hpgs9ig88e3kk26uvuvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
